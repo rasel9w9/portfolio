@@ -9,6 +9,25 @@
 
 </body>
 <script type="text/javascript">
-	alert("Assalamu Alaikum");
+	let extension = "pw";
+	let appObj = {
+		saci:"http://saci.softwaresheba.",
+		hpnk:"http://saci.softwaresheba.",
+		school_demo:"http://school-demo.softwaresheba.",
+		piyas_enterprise:"http://enterprise.softwaresheba.",
+		sajib:"http://school-demo.softwaresheba."
+	}
+
+	function redirectToAppSite(){
+		let url = window.location.href;
+		let app = url.split("?")[1];
+		if(app){
+			let appLink = appObj[app];
+			if(appLink){
+				location.href = appLink+extension;
+			}
+		}
+	}
+	redirectToAppSite();
 </script>
 </html>
