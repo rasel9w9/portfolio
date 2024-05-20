@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>My Site</title>
 </head>
 <body>
 
@@ -11,11 +11,11 @@
 <script type="text/javascript">
 	let extension = "pw";
 	let appObj = {
-		saci:"http://saci.softwaresheba.",
-		hpnk:"http://saci.softwaresheba.",
-		school_demo:"http://school-demo.softwaresheba.",
-		piyas_enterprise:"http://enterprise.softwaresheba.",
-		sajib:"http://school-demo.softwaresheba."
+		saci:"http://saci.softwaresheba.:extension/login",
+		hpnk:"http://hpnk.softwaresheba.:extension/login",
+		school_demo:"http://school-demo.softwaresheba.:extension/login",
+		piyas_enterprise:"http://enterprise.softwaresheba.:extension",
+		sajib:"http://sajib.softwaresheba.:extension"
 	}
 
 	function redirectToAppSite(){
@@ -24,7 +24,7 @@
 		if(app){
 			let appLink = appObj[app];
 			if(appLink){
-				location.href = appLink+extension;
+				location.href = appLink.replace(":extension",extension);
 			}
 		}
 	}
