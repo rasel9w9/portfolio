@@ -15,12 +15,13 @@
 		hpnk:"http://hpnk.softwaresheba.:extension/login",
 		school_demo:"http://school-demo.softwaresheba.:extension/login",
 		piyas_enterprise:"http://piyas-enterprise.softwaresheba.:extension",
-		sajib:"http://sajib.softwaresheba.:extension"
+		sajib:"http://sajib.softwaresheba.:extension",
+		acp:"http://acp.softwaresheba.:extension"
 	}
-
 	function redirectToAppSite(){
 		let url = window.location.href;
 		let app = url.split("?")[1];
+		alert(app);
 		if(app){
 			let appLink = appObj[app];
 			if(appLink){
