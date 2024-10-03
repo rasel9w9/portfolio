@@ -10,6 +10,7 @@
 </body>
 <script type="text/javascript">
 	let extension = "host";
+	alert(extension);
 	let appObj = {
 		saci:"http://saci.softwaresheba.:extension/login",
 		hpnk:"http://hpnk.softwaresheba.:extension/login",
@@ -21,7 +22,6 @@
 	function redirectToAppSite(){
 		let url = window.location.href;
 		let app = url.split("?")[1];
-		alert(app);
 		if(app){
 			let appLink = appObj[app];
 			if(appLink){
