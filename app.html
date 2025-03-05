@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	let extension = "host";
 	let appObj = {
-		imss:"http://imss.softwaresheba.:extension/login",
+		imss:"http://saci.softwaresheba.:extension/login",
 		saci:"http://saci.softwaresheba.:extension/login",
 		hpnk:"http://hpnk.softwaresheba.:extension/login",
 		school_demo:"http://school-demo.softwaresheba.:extension/login",
@@ -37,23 +37,6 @@
 		ohsmtc:"http://ohsmtc.softwaresheba.:extension",
 	}
 
-	function workFunction(){
-		let url = window.location.href;
-		let urlSplit = url.split("?");
-		let app = urlSplit[1];
-		if(app == "saveFcmToken"){
-			let device_id = urlSplit[2];
-			let fcm_token = urlSplit[3];
-			let client_id = urlSplit[4];
-			sendTokenToServer(device_id,fcm_token,client_id);
-		}else{
-			let appLink = appObj[app];
-			if(appLink){
-				location.href = appLink.replace(":extension",extension);
-			}
-		}
-	}
-
 	function redirectToAppSite(){
 		let url = window.location.href;
 		let app = url.split("?")[1];
@@ -64,27 +47,7 @@
 			}
 		}
 	}
-
-	function sendTokenToServer(device_id,token,client_id){
-	    fetch("https://softwaresheba.host/", {
-	        method: "POST",
-	        headers: {
-	            "Content-Type": "application/json",
-	        },
-	        body: JSON.stringify({
-	            device_id: device_id,
-	            token: token,
-	            client_id: client_id
-	        }),
-	    })
-	    .then(response => response.json())
-	    .then(data => {
-	        return data;
-	    })
-	    .catch(error => {
-	        return false
-	    });
-	}
-	workFunction();
+	
+	redirectToAppSite();
 </script>
 </html>
