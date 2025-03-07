@@ -2,5 +2,5 @@
   "saveFcmUrl": "https://imss.softwaresheba.host/smsGateway/saveOrUpdateFcmToken",
   "updateUserIdToFcmUrl": "https://imss.softwaresheba.host/smsGateway/updateUserIdToFcmToken",
   "imss": "https://imss.softwaresheba.host/login",
-  "saci": "https://saci.softwaresheba.host/login"
+  "saci": "http://saci.softwaresheba.host/login"
 }
