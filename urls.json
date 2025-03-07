@@ -1,4 +1,6 @@
 {
-  "backend_url": "https://imss.softwaresheba.host",
-  "client_url": "https://client_id.softwaresheba.com"
+  "saveFcmUrl": "https://imss.softwaresheba.host/smsGateway/saveOrUpdateFcmToken",
+  "updateUserIdToFcmUrl": "https://imss.softwaresheba.host/smsGateway/updateUserIdToFcmToken",
+  "imss": "https://imss.softwaresheba.host/login",
+  "saci": "https://saci.softwaresheba.host/login",
 }
