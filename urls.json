@@ -2,5 +2,17 @@
   "saveFcmUrl": "https://imss.softwaresheba.host/smsGateway/saveOrUpdateFcmToken",
   "updateUserIdToFcmUrl": "https://imss.softwaresheba.host/smsGateway/updateUserIdToFcmToken",
   "imss": "https://imss.softwaresheba.host/login",
-  "saci": "https://saciedu.org/login"
+  "saci": "https://saciedu.org/login",
+  "ctqmm": "https://ctqmm.softwaresheba.host/login",
+  "ahs": "https://ahs.softwaresheba.host/login",
+  "hmsc": "https://hmsc.softwaresheba.host/login",
+  "msac": "https://msac.softwaresheba.host/login",
+  "ugbudm": "https://ugbudm.softwaresheba.host/login",
+  "ciim": "https://ciim.softwaresheba.host/login",
+  "rsel": "https://rsel.softwaresheba.host/login",
+  "szhmia": "https://szhmia.softwaresheba.host/login",
+  "ssia": "https://ssia.softwaresheba.host/login",
+  "dhwm": "https://dhwm.softwaresheba.host/login",
+  "mim": "https://mim.softwaresheba.host/login",
+  "habsem": "https://habsem.softwaresheba.host/login",
 }
