@@ -2,7 +2,7 @@
   "saveFcmUrl": "https://imss.softwaresheba.host/smsGateway/saveOrUpdateFcmToken",
   "updateUserIdToFcmUrl": "https://imss.softwaresheba.host/smsGateway/updateUserIdToFcmToken",
   "imss": "https://imss.softwaresheba.host/login",
-  "saci": "https://saciedu.org/login",
+  "saci": "https://saci.softwaresheba.host/login",
   "ctqmm": "https://ctqmm.softwaresheba.host/login",
   "ahs": "https://ahs.softwaresheba.host/login",
   "hmsc": "https://hmsc.softwaresheba.host/login",
@@ -19,5 +19,5 @@
   "krhs": "https://kumirarhs.edu.bd/login",
   "udayanacademy": "https://udayanacademy.softwaresheba.host/login",
   "sauphs": "https://sauphs.softwaresheba.host/login",
-  "coabbdc": "https://coabbdc.softwaresheba.host/login"
+  "coabbdc": "https://oliahmedcollege.edu.bd/login"
 }
