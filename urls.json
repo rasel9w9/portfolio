@@ -1,7 +1,7 @@
 {
   "saveFcmUrl": "https://imss.softwaresheba.org/smsGateway/saveOrUpdateFcmToken",
   "updateUserIdToFcmUrl": "https://imss.softwaresheba.org/smsGateway/updateUserIdToFcmToken",
-  "imss": "https://imss.softwaresheba.org/login",
+  "imss": "https://imssdemo.softwaresheba.org/login",
   "saci": "http://saciedu.org/login",
   "ctqmm": "https://ctqmm.softwaresheba.org/login",
   "ahs": "https://ahs.softwaresheba.org/login",
